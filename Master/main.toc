@@ -1,0 +1,22 @@
+\ttl@change@i {\@ne }{chapter}{3.8em}{\hspace {-3.8em}}{\thecontentslabel ~~}{}{\titlerule *[4pt]{.}\contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\ttl@change@i {\@ne }{section}{38pt}{}{\contentslabel {22pt}}{\hspace *{-22pt}}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\ttl@change@i {\@ne }{subsection}{70pt}{}{\contentslabel {32pt}}{\hspace *{-32pt}}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {subsection}{}{}{}\relax 
+\contentsline {chapter}{\numberline {1\hspace {.3em}}第二章}{1}{section*.2}%
+\contentsline {section}{2.1}{1}{section*.5}%
+\contentsline {section}{2.2}{6}{section*.18}%
+\contentsline {section}{2.3}{8}{section*.25}%
+\contentsline {section}{2.4}{9}{section*.30}%
+\contentsline {section}{2.5}{12}{section*.36}%
+\contentsline {section}{2.6}{17}{section*.49}%
+\contentsline {section}{2.7}{24}{section*.65}%
+\contentsline {section}{2.8}{30}{section*.75}%
+\contentsline {section}{2.9}{33}{section*.82}%
+\contentsline {section}{2.10}{34}{section*.85}%
+\contentsline {section}{2.11}{35}{section*.88}%
+\contentsline {chapter}{\numberline {2\hspace {.3em}}第八章}{36}{section*.90}%
+\contentsline {section}{8.1}{36}{section*.93}%
+\contentsline {chapter}{\numberline {3\hspace {.3em}}开源}{38}{section*.95}%
+\contentsfinish 
