@@ -1,0 +1,85 @@
+% !Mode:: "TeX:UTF-8" 
+
+\fancyhead[R]{本题由QC.Z完成}
+
+\BiChapter{第八章}{Figures, Tables and Equations}
+
+\BiSection{8.1}{Figures}
+
+
+
+解：（1）
+
+$v_{out}=-g_{m1} r_{o1} \times v_x$\ding{172}
+
+$(v_{out}-v_x ) \times sC_2=(v_x-v_{in} ) \times sC_1$\ding{173}\textcolor{blue}{（电流）}
+
+联立以上2式得
+
+$\frac{v_{out}}{v_{in}} =\frac{-1}{ \left( 1+\frac{1}{g_{m1} r_{o1}} \right) \frac{C_2}{C_1} +\frac{1}{g_{m1} r_{o1}}}   $\ding{174}
+
+ 	\color{blue}{
+	
+	\{
+
+由\ding{173}得 $v_x (sC_1+sC_2)=v_{out} sC_2+v_{in} sC_1$
+
+由\ding{172}得$v_x=\frac{v_{out}}{-g_{m1} r_{o1}}$
+
+将上式代入上上式并移项且约分得$\frac{v_{out}}{-g_{m1} r_{o1}}=\frac{v_{out} C_2+v_{in} C_1}{C_1+C_2}$
+
+移项并除以$C_1$得
+
+$v_{out} \left(1+\frac{C_2}{C_1} \right)=(-g_{m1} r_{o1})(v_{out}  \frac{C_2}{C_1} +v_{in})$
+
+展开并合并$v_{out}$得$v_{out} \left(1+\frac{C_2}{C_1} +g_{m1} r_{o1}  \frac{C_2}{C_1} \right)=-g_{m1} r_{o1} v_{in}$
+
+移项得$\frac{v_{out}}{v_{in}} =\frac{-g_{m1} r_{o1}}{1+\frac{C_2}{C_1} +g_{m1} r_{o1}  \frac{C_2}{C_1}}=\frac{-1}{\left(1+\frac{1}{g_{m1} r_{o1}}\right)\frac{C_2}{C_1} +\frac{1}{g_{m1} r_{o1}}}$\ding{174}
+
+[如果整理\ding{173}代入\ding{172}不好算就试试整理\ding{172}代入\ding{173}]
+
+\}
+
+
+}
+
+\color{black}{
+	
+	
+
+当$g_{m1} r_{o1}$足够大时有$\frac{v_{out}}{v_{in}} =-\frac{C_1}{C_2}$ \ding{175}
+
+考虑增益误差小于5\%有$\frac{v_{out}}{v_{in}} =-(1-5\%)\frac{C_1}{C_2} =-0.95 \frac{C_1}{C_2} $
+
+将上式代入\ding{174}得$-0.95 \frac{C_1}{C_2} =\frac{-1}{\left(1+\frac{1}{g_{m1} r_{o1}}\right)\frac{C_2}{C_1} +\frac{1}{g_{m1} r_{o1}}}  =\frac{-1}{(1+\frac{1}{50})  \frac{C_2}{C_1} +\frac{1}{50}}=\frac{-1}{1.02 \frac{C_2}{C_1} +0.02}$
+
+将$\frac{C_1}{C_2}$ 看作一个整体由上式得$\frac{C_1}{C_2} =\frac{1-0.969}{0.019}\approx1.63$
+
+由于\ding{175}是闭环电压增益最大值，因此将1.63代入得$\frac{v_{out}}{v_{in}} =-1.63$
+
+$|\frac{v_{out}}{v_{in}} |=1.63$
+
+（2）
+
+低频闭环$R_{out}=\frac{r_{o1}}{1+\frac{C_2}{C_1+C_2} g_{m1} r_{o1}}  =\frac{r_{o1}}{1+\frac{C_2}{C_2 \left(\frac{C_1}{C_2} +1\right)} g_{m1} r_{o1}}=\frac{r_{o1}}{1+\frac{g_{m1} r_{o1}}{\frac{C_1}{C_2} +1}} =\frac{r_{o1}}{1+\frac{50}{1.63+1}}=\frac{r_{o1}}{1+19.0114}\approx0.05r_{o1}$
+ 	
+ 	
+ 	
+ 	
+ 	}
+ 	
+ 	\color{blue}{
+ 	
+\{
+
+输入接地，输出接$V_t$有$V_t \frac{C_2}{C_1+C_2}  g_{m1}+\frac{V_t}{r_{o1}} =I_t$
+
+$R_{out}=\frac{V_t}{I_t} =\frac{r_{o1}}{1+\frac{C_2}{C_1+C_2} g_{m1} r_{o1}}   $
+
+\}
+
+
+}
+\color{black}{
+	
+}
