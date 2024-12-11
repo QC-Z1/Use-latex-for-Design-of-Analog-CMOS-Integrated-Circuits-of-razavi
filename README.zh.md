@@ -14,7 +14,7 @@ texstudio+Texlive（XeLatex编译）
 
 #### 使用说明
 
-0.  [点此进入PDF下载页面]([https://gitcode.com/QC_Z/razavi/releases](https://github.com/QC-Z1/Use-latex-for-Design-of-Analog-CMOS-Integrated-Circuits-of-razavi/releases])
+0.  [点此进入PDF下载页面]((https://github.com/QC-Z1/Use-latex-for-Design-of-Analog-CMOS-Integrated-Circuits-of-razavi/releases))
 1.  欢迎提意见或建议，有具体问题也可以交流。
 2.  也欢迎加入开源项目，总有一天会完成这本书的解答，之后可以开始下一本书。
 3.  请仔细阅读GPL-3.0条款。原作者在此特别强调不论以何种形式发布，都必须同时附上原始产品的完整的源代码，其中包括衍生产品的发布和用于商业目的。
