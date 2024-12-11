@@ -2,6 +2,17 @@
 
 \BiSection{2.6}{Figures}
 
+\fancyhead[R]{本题2.6由集成电路小刚完成}
+
+对于图2.48的每个电路，画出$I_X$和晶体管跨导关于$V_X$的函数曲线草图。$V_X$从0变化到$V_{DD}$。
+
+\begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
+	\begin{minipage}{\linewidth}
+		\includegraphics[width=1\linewidth]{2.6.48}
+	\end{minipage}
+	\caption*{图2.48} %最终文档中希望显示的图片标题
+\end{figure}
+
 解：
 
 \scalebox{3}{（a）}
@@ -112,7 +123,9 @@ $V_{X}<V_{DD}-V_{TH}(1+\frac{R_1}{R_2})$
 	
 	\scalebox{3}{（c）}
 	
-	因为由电路图得电阻电流$I_{R1}=I_1-I_X$，所以$0 \leq I_X \leq I_1$
+	由电路图得电阻电流$I_{R1}=I_1-I_X$
+	
+	因为$I_X$和$I_{R1}$有相同的极性，所以$0 \leq I_X \leq I_1$
 	
 	$V_{GS}=2-V_X+R_1(I_1-I_X)$
 	
@@ -124,7 +137,7 @@ $V_{X}<V_{DD}-V_{TH}(1+\frac{R_1}{R_2})$
 	
 	$g_m=\mu_nC_{ox}\frac{W}{L}V_{DS}=\mu_nC_{ox}\frac{W}{L}R_1(I_1-I_X)$
 	
-		当$V_{GS}<V_{TH}$即$V_{X}>2-V_{TH}+R_1I_1-R_1I_X$时，NFET关
+		当$V_{GS}<V_{TH}$即$V_{X}>2-V_{TH}+R_1I_1-R_1I_X$时，NFET关\textcolor{blue}{（NFET关时$I_X=0$即这个条件式子也可以改为$V_{X}>2-V_{TH}+R_1I_1$）}
 	
 	当$2-V_{TH}<V_{X}<2-V_{TH}+R_1I_1-R_1I_X$时，NFET在饱和区
 	
@@ -165,7 +178,7 @@ $V_{X}<V_{DD}-V_{TH}(1+\frac{R_1}{R_2})$
 		\end{minipage}
 	\end{figure}
 	
-	上式表示电流随着电压的增加而减小。因此，电流的极性随着电压的增加而变化。
+	上式表示电流随着电压的增加而减小。因此，电流的极性随着电压的增加而变化。\textcolor{blue}{（隐函数图像可用软件绘制）}
 	
 		$g_m=\mu_nC_{ox}\frac{W}{L}V_{DS}=\mu_nC_{ox}\frac{W}{L}[2-V_{X}+R_1(I_1-I_X)]$
 	
@@ -252,9 +265,7 @@ $\sqrt{\frac{2I_1+\frac{2V_{TH}}{R_1}}{\mu_nC_{ox}\frac{W}{L}}}+V_{TH}=V_{X}$
 	\{
 	
 	
-	\ding{172}（c）和（d）中NFET关的$-R_1I_X$与英文答案不同和……
-	
-	\ding{173}（d）线性区分析电流公式
+	\ding{172}（d）线性区分析电流公式
 	
 	
 	
